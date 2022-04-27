@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
 * {
     padding: 0;
     margin: 0;
@@ -6,6 +8,7 @@
 
 body {
     background-color: #0d1a2d;
+    font-family: "Outfit", sans-serif;
 }
 
 .main-container {
@@ -123,4 +126,9 @@ hr {
 
 .container:hover .middle {
     opacity: 1;
+}
+
+h3:hover,
+.creator p span:hover {
+    color: hsl(178, 100%, 50%);
 }
